@@ -13,6 +13,7 @@ def test__cat_years_to_hooman_years__less_than_one_year__succeeds():
     cat2human = catmath.cat_years_to_hooman_years
     assert cat2human(0.8) == 4
     assert cat2human(0.6) == 3
+    assert cat2human(0.4) == 2
 
 
 def test__cat_years_to_hooman_years__0__returns_0():
